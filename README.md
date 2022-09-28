@@ -11,7 +11,8 @@
 4. You can only use two username and passwords in this app: a) usernname: js , password: 1111  b) username: jd , password: 2222
 
 5. In this app when you close your account, the object which has all the information of the user gets deleted from the array which is in script.js file. So if you want to access the close account functionality then add the one of these object again in the script.js file so that you can use the app again: 
-const account1 = {
+
+bash```const account1 = {
   owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
@@ -29,9 +30,9 @@ const account1 = {
   ],
   currency: 'EUR',
   locale: 'pt-PT', // de-DE
-};
+};```
 
-const account2 = {
+bash```const account2 = {
   owner: 'Jessica Davis',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
@@ -49,4 +50,4 @@ const account2 = {
   ],
   currency: 'USD',
   locale: 'en-US',
-};
+};```
