@@ -12,7 +12,8 @@
 
 5. In this app when you close your account, the object which has all the information of the user gets deleted from the array which is in script.js file. So if you want to access the close account functionality then add the one of these object again in the script.js file so that you can use the app again: 
 
-```bash const account1 = {
+```
+  const account1 = {
   owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
@@ -32,7 +33,8 @@
   locale: 'pt-PT', // de-DE
 };```
 
-```bash const account2 = {
+```
+  const account2 = {
   owner: 'Jessica Davis',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
